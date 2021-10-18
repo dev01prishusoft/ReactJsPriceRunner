@@ -1,7 +1,7 @@
 .mainBox{
     height: 100%;
 }
-.firstDiv{
+.topPortion{
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
     font-size: 30px;
     font-weight: 500;
 }
-.barsIconStyle{
+.barsIcon{
     margin-top: 5px;
     display: flex;
     -webkit-box-pack: center;
@@ -52,68 +52,25 @@
     cursor: pointer;
     margin-left: 20px;
 }
-
-
-.exploreDivStyle{
-    margin: 50px 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 15px;
-    border-radius: 6px;
-    background-color: rgb(236, 226, 225);
-    font-family: "Lexend Deca", sans-serif;
-    font-size: 2.25rem;
-    line-height: 2.8125rem;
-    padding-left: 30px;
-}
-
-.tabsDiv{
+.tabsContent{
     padding: 20px;
 }
-
-.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
-    color: rgb(32, 88, 88) !important;
-    font-size: large !important;
-}
-.ant-tabs-tab{
-    color: rgb(32, 88, 88) !important;
-    font-size: large !important;
-}
-
-
-.secondDiv{
+.bottomPortion{
     height: calc(100% - 100px);
     width: 100%;
 }
-
-.homeSecondDiv{
-    height: calc(100% - 100px);
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-.productBox{
-    height: 400px;
-    width: 300px;
-    margin: 7px;
-    overflow-y: auto;
-    border-radius: 10px;
-}
-
-.formsDiv{
+.formsContent{
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 140px;
     align-items: center;
 }
-.textDiv{
+.textContent{
     display: block !important;
     width: 50%;
 }
-.titleInputStyle{
+.titleInput{
     background-color: white;
     border: none;
     font-style: inherit;
@@ -127,10 +84,10 @@
     color: inherit;
     width: 100%;
 }
-.titleInputStyle:focus-visible {
+.titleInput:focus-visible {
     outline: none !important;
 }
-.textAreaStyle{
+.textAreaInput{
     background-color: white;
     width: 100%;
     border: none;
@@ -143,8 +100,41 @@
     font-size: 0.9375rem;
     resize: none;
 }
-.textAreaStyle:focus-visible {
+.textAreaInput:focus-visible {
     outline: none !important;
+}
+.insideDropZone{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 8%) 0px 2px 20px 0px;
+    border-radius: 6px;
+    padding: 30px;
+    border: 1px solid rgb(234, 240, 240);
+    word-break: break-word;
+}
+.cameraIcon{
+    margin-right: 15px;
+    height: 32px;
+    width: 32px;
+    border-radius: 99px;
+    background-color: rgb(32, 88, 88);
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    font-size: medium !important;
+    color: #fff;
+}
+.uploadPhotoText{
+    color: rgb(26, 26, 26) !important;
+    font-size: 0.8125rem !important;
+    font-weight: 600 !important;
+}
+.limitPhotoText{
+    color: rgb(128, 128, 128) !important;
+    font-size: 0.8125rem !important;
+    font-weight: 400 !important;
 }
 .filePreviewPortion{
     margin-top: 20px;
@@ -153,20 +143,14 @@
     margin: 5px;
     position: relative;
 }
-.imageDiv{
-    width: 100%;
-    height: 100%;
-}
 .closeIconStyle{
     font-size: 40px !important;
     position: absolute;
     top: 10px;
     right: 10px;
     color: rgb(242, 244, 244) !important;
-    cursor: pointer;
+    cursor: pointer !important;
 }
-
-
 .footerBtn{
     display: flex;
     justify-content: flex-end;
@@ -190,6 +174,7 @@
     font-family: inherit;
     line-height: 1;
     transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
+    cursor: pointer;
 }
 .publishBtn{
     display: inline-flex;
@@ -210,83 +195,5 @@
     line-height: 1;
     transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
     margin-left: 10px;
-}
-
-
-.modalBody{
-    display: block !important;
-    justify-content: start !important;
-}
-.modalSearchDiv{
-    display: flex !important;
-}
-.inputStyle{
-    width: 350px;
-    height: 40px;
-    margin-right: 10px;
-}
-.productDataRender{
-    margin-top: 15px;
-
-}
-.singleProduct{
-    border: 1px solid rgb(32, 88, 88);
-    border-radius: 5px;
-    margin: 10px 0;
-    padding: 7px;
-    color: black;
-    font-size: 18px;
-    font-weight: 500;
     cursor: pointer;
 }
-.selectedCategory{
-    background: rgb(211, 205, 205);
-}
-
-.DropZone{
-    background-color: white !important;
-    box-shadow: rgb(0 0 0 / 8%) 0px 2px 20px 0px !important;
-    border-radius: 6px !important;
-    padding: 30px !important;
-    border: 1px solid rgb(234, 240, 240) !important;
-    word-break: break-word !important;
-    cursor: pointer !important;
-}
-.uploadPhtText{
-    color: rgb(26, 26, 26) !important;
-    font-size: 0.8125rem !important;
-    font-weight: 600 !important;
-}
-.limitText{
-    color: rgb(128, 128, 128) !important;
-    font-size: 0.8125rem !important;
-    font-weight: 400 !important;
-}
-.insideDropZone{
-    display: flex;
-    align-items: center;
-    text-align: start;
-}
-.cemeraIconStyle{
-    margin-right: 15px;
-    height: 32px;
-    width: 32px;
-    border-radius: 99px;
-    background-color: rgb(32, 88, 88);
-    display: flex;
-    align-items: center;
-    padding: 0 8px;
-    font-size: medium !important;
-    color: #fff;
-}
-
-.ant-modal-body {
-    height: 400px !important;
-    overflow: auto !important;
-}
-
-
-
-
-
-

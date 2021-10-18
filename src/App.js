@@ -4,8 +4,9 @@ import {
   Route,
   Switch
 } from "react-router-dom";
-import Home from './home/Home';
-import NewPost from "./home/NewPost";
+
+import Home from './pages/components/home/Home';
+import NewPost from "./pages/components/addPost/AddPost";
 
 import './App.css';
 import "antd/dist/antd.css";

@@ -1,0 +1,97 @@
+.mainBox{
+    height: 100%;
+}
+.topPortion{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    border-bottom: 1px solid rgb(226, 229, 229);
+}
+.headerTitle{
+    color: #205858;
+    font-size: 30px;
+    font-weight: 500;
+}
+.barsIcon{
+    margin-top: 5px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(242, 244, 244);
+    color: rgb(26, 26, 26);
+    height: 32px;
+    width: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 99px;
+    border: none;
+    transition: background 0.2s ease 0s;
+}
+.addPostBtn{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(32, 88, 88);
+    color: white;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    padding: 12px 24px;
+    max-height: 45px;
+    width: auto;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 1;
+    transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.exploreDivStyle{
+    margin: 50px 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    background-color: rgb(236, 226, 225);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 2.25rem;
+    line-height: 2.8125rem;
+    padding-left: 30px;
+}
+
+.tabsContent{
+    padding: 20px;
+}
+.homeBottomPortion{
+    height: calc(100% - 100px);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.productBox{
+    height: 400px;
+    width: 300px;
+    margin: 7px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

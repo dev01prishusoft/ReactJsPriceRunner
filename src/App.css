@@ -13,3 +13,16 @@
 .App-link {
   color: #61dafb;
 }
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: rgb(32, 88, 88) !important;
+  font-size: large !important;
+}
+.ant-tabs-tab{
+  color: rgb(32, 88, 88) !important;
+  font-size: large !important;
+}
+.ant-modal-body {
+  height: 400px !important;
+  overflow: auto !important;
+}
